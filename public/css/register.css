@@ -1,0 +1,91 @@
+/* Normalize */
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+}
+
+/* Header */
+
+header {
+    background-color: #EAC926;
+    padding-bottom: 15px;
+    padding-top: 20px;
+}
+
+#logo {
+    margin-left: 20px;
+}
+
+/* Main y Form */
+
+main {
+    width: 100%;
+    background-color: #ECECEC;
+    padding-bottom: 30px;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    box-sizing: border-box;
+    padding-top: 30px;
+}
+
+h2 {
+    margin-top: 0px;
+}
+
+label {
+    display: block;
+    color: gray;
+    margin-top: 20px;
+}
+
+input {
+    padding: 10px;
+    border-radius: 5px;
+    border: 0px;
+    width: 100%;
+    margin-top: 10px;
+    box-sizing: border-box;
+    background-color: white;
+}
+
+input[type=radio], input[type=checkbox] {
+    width: initial;
+}
+
+.inline {
+    display: inline;
+    color: black;
+}
+
+input::placeholder {
+    color: gray;
+}
+
+.bold {
+    font-weight: bold;
+    margin-top: 20px;;
+}
+
+button[type=reset] {
+    margin-top: 20px;
+    margin-bottom: 5px;
+    background-color: #DE3E44;
+}
+
+button {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    border: 0px;
+    background-color: #0081FF;
+    border-radius: 5px;
+    color: white;
+}
+
+input:invalid {
+    border: 2px dashed red;
+}
+
+ 

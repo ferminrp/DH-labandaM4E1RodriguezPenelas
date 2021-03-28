@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro en Mercado Liebre</title>
+
+    <link rel="stylesheet" href='/css/register.css' />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <img id="logo" src="/images/logo-mercado-liebre.svg" width="150" alt="Logo de MercadoLiebre">
+
+    </header>
+    <main>
+        <h2>Vamos a crear tu cuenta!</h3>
+            <form action="/" method="POST">
+                <label minlength="3" for="nombre">Nombre y Apellido</label>
+                <input required  type="text" name="nombre" id="nombre" placeholder="Nombre y Apellido">
+
+                <label minlength="3" for="username">Nombre de Usuario</label>
+                <input required  type="text" name="username" id="username" placeholder="Nombre de Usuario">
+
+                <label for="email">Email</label>
+                <input required  type="email" name="email" id="username" placeholder="Email">
+
+                <label for="date">Fecha de Nacimiento</label>
+                <input required  type="date" name="date" id="date">
+
+                <label for="domicilio">Domicilio</label>
+                <input required  type="text" name="domicilio" id="domicilio" placeholder="Domicilio">
+
+                <p class="bold">Tipo de Cuenta</p>
+                <input type="radio" name="tipocuenta" id="comprador" value="Comprador" checked>
+                <label class="inline" for="comprador">Comprador</label>
+                <input type="radio" name="tipocuenta" id="vendedor" value="Vendedor">
+                <label class="inline" for="comprador">Vendedor</label>
+
+                <p class="bold">Intereses</p>
+                <input type="checkbox" name="intereses" id="Electro" value="Electro" checked>
+                <label class="inline" for="comprador">Electro</label><br>
+                <input type="checkbox" name="intereses" id="venModadedor" value="Moda" checked>
+                <label class="inline" for="comprador">Moda</label><br>
+                <input type="checkbox" name="intereses" id="Hogar" value="Hogar" checked>
+                <label class="inline" for="comprador">Hogar</label><br>
+                <input type="checkbox" name="intereses" id="Jugueteria" value="Jugueteria" checked>
+                <label class="inline" for="comprador">Jugueteria</label><br>
+                <input type="checkbox" name="intereses" id="VidaSana" value="VidaSana" checked>
+                <label class="inline" for="comprador">Vida Sana</label><br>
+
+                <label for="avatar">Foto de perfil</label>
+                <input required  type="file" id="avatar" name="avatar" accept="image/png, image/jpeg">
+
+
+                <label for="password">Contraseña</label>
+                <input required  type="password" name="password" id="password" placeholder="Contraseña">
+
+                <label for="passwordcheck">Confirmar Contraseña</label>
+                <input required  type="password" name="passwordcheck" id="passwordcheck" placeholder="Contraseña">
+
+                <button type="reset">Cancelar</button>
+                <button type="submit">Enviar</button>
+
+            </form>
+    </main>
+
+</body>
+
+</html>
