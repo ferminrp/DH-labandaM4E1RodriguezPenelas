@@ -1,0 +1,168 @@
+body {
+  margin: 0px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+}
+
+main {
+  width: 90vw;
+  margin-left: auto;
+  margin-right:auto;
+}
+
+header {
+  background-color: #EAC926;
+  padding-bottom: 15px;
+  padding-top: 20px;
+}
+
+.burger {
+  color: white;
+  text-align: center;
+  width: 100%;
+}
+
+.center {
+  text-align: center;
+}
+
+.burger-menu {
+  background-color: #0343A9;
+  border: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+#logo {
+  margin-left: 20px;
+}
+
+.search {
+    margin-top: 20px;
+    margin-left: 20px;
+    display: block;
+}
+
+.lupita {
+  margin-left: 20px;
+}
+
+ul {
+  padding-left: 0px;
+}
+
+li {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul li a {
+  color: black;
+  text-decoration: none;
+}
+
+h3 {
+  font-size: 24px;
+  margin-left: 20px;
+}
+
+.precios {
+  font-size: 18px;
+}
+
+.descuentos {
+  font-size: 16px;
+}
+
+.descripciones {
+  font-size: 16px;
+}
+
+main {
+  background-color: #ECECEC;
+  padding-bottom: 30px;
+}
+
+article {
+  background-color: #FFFFFF;
+  max-width: 90%;
+  margin-left: 20px;
+  padding-left: 5%;
+  margin-right: 5%;
+  padding-bottom: 20px;
+  margin-bottom: 10px;
+}
+
+.banner {
+  max-width: 100%;
+}
+
+article img {
+  max-width: 90%;
+}
+
+.fa-truck {
+  display: inline;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.fa-credit-card {
+  margin-bottom: 10px;
+}
+
+.icon-center {
+  color:#0D5ACA;
+  font-size: 2em;
+  margin-left: auto;
+  margin-right: auto;
+  display:block;
+  width: 27px;
+  text-align: center;
+}
+
+footer {
+  padding-top: 30px;
+  text-align: center;
+}
+
+.details {
+  border-top: 1px solid #ebebeb;
+  padding: 15px;
+}
+
+main section {
+  padding-top: 20px;
+}
+
+/* Media Queries */
+
+/* Mobile */
+@media only screen and (max-width: 360px) {
+  .details {
+    display: none;
+  }
+  body > header > nav > ul {
+    display: none;
+  }
+}
+
+/* ipad */
+
+@media only screen and (min-width: 361px) {
+  body > header > nav > button {
+    display: none;
+  }
+}
+
+/* desktop */
+@media screen and (min-width: 361px) {
+
+}
