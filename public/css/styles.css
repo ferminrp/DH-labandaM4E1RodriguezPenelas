@@ -5,9 +5,14 @@ body {
 }
 
 main {
-    width: 90vw;
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
+    background-color: #ECECEC;
+    padding-bottom: 30px;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    box-sizing: border-box;
 }
 
 header {
@@ -43,11 +48,6 @@ header {
 .search {
     margin-top: 20px;
     margin-left: 20px;
-    display: block;
-}
-
-.lupita {
-    margin-left: 20px;
 }
 
 ul {
@@ -81,15 +81,10 @@ h3 {
     font-size: 16px;
 }
 
-main {
-    background-color: #ECECEC;
-    padding-bottom: 30px;
-}
 
 article {
     background-color: #FFFFFF;
     max-width: 90%;
-    margin-left: 20px;
     padding-left: 5%;
     margin-right: 5%;
     padding-bottom: 20px;
@@ -143,25 +138,23 @@ main section {
 }
 
 
-@media only screen and(max-width: 360px) {
+@media screen and (max-width: 360px) {
     .details {
         display: none;
     }
-    body > header > nav > ul {
+    nav ul {
         display: none;
     }
 }
 
 
-
-@media only screen and(min-width: 361px) {
-    body > header > nav > button {
+@media screen and (min-width: 361px) {
+    .burger-menu {
         display: none;
     }
 }
 
 
-@media screen and(min-width: 361px) {
-
+@media screen and (min-width: 769px) {
 
 }
