@@ -85,6 +85,10 @@ button {
     color: white;
 }
 
+button:hover {
+    background-color: #0022AA;
+}
+
 @media screen and (min-width: 720px) {
     main {
         width: 720px;
