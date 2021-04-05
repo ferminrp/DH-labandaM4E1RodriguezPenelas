@@ -160,7 +160,7 @@ article img {
     background-color: white;
 }
 
-img {
+main img {
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -189,8 +189,19 @@ footer .flex {
     display: flex;
 }
 
+nav {
+    display: flex;
+    justify-content: space-between;
+}
 
+nav ul {
+    display: flex;
+}
 
+.top-header {
+    display: flex;
+    justify-content: space-between;
+}
 
 
 main section {
@@ -209,10 +220,10 @@ main section {
 
 
 @media screen and(min-width: 361px) {
-    .burger-menu {
-        display: none;
-    }
+
 }
 
 
-@media screen and(min-width: 769px) {}
+@media screen and(max-width: 769px) {
+
+}
