@@ -87,8 +87,7 @@ h3 {
 article {
     background-color: #FFFFFF;
     max-width: 90%;
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-right: 1%;
     padding-bottom: 20px;
     margin-bottom: 10px;
     -webkit-transition: all .8s ease;
@@ -212,6 +211,7 @@ main section {
     padding-top: 20px;
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 footer .flex {
