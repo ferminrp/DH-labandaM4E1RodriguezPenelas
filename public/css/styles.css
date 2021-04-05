@@ -201,6 +201,7 @@ nav ul {
 .top-header {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 
@@ -209,7 +210,7 @@ main section {
 }
 
 
-@media screen and(max-width: 360px) {
+@media only screen and (max-width: 360px) {
     .details {
         display: none;
     }
@@ -219,11 +220,13 @@ main section {
 }
 
 
-@media screen and(min-width: 361px) {
-
+@media only screen and (min-width: 361px) {
+    .burger-menu {
+        display: none;
+    }
 }
 
 
-@media screen and(max-width: 769px) {
+@media only screen and (min-width: 760px) {
 
-}
+};
