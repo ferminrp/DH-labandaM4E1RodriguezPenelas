@@ -200,6 +200,10 @@ nav ul {
     display: flex;
 }
 
+nav ul li {
+    margin: 5px;
+}
+
 .top-header {
     display: flex;
     justify-content: space-between;
