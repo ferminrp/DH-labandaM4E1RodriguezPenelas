@@ -194,6 +194,7 @@ footer .flex {
 nav {
     display: flex;
     justify-content: space-between;
+    font-size: 18px;
 }
 
 nav ul {
@@ -232,5 +233,9 @@ main section {
 
 
 @media only screen and (min-width: 760px) {
-
-};
+    .search {
+        width: 300px;
+        border: 0px!important;
+        height: 20px;
+    }
+}
