@@ -214,6 +214,11 @@ main section {
     flex-wrap: wrap;
 }
 
+footer .flex {
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
 
 @media only screen and (max-width: 360px) {
     .details {
